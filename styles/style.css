@@ -1,0 +1,33 @@
+
+header {
+    height: 100vh;
+    background-image: url('../images/header-bg.png');
+    background-size: cover;
+}
+main {
+    height: 100vh;
+}
+
+html::-webkit-scrollbar {
+    width: .4rem;
+    background: linear-gradient(0deg, rgba(0,168,255,1) 0%, rgba(101,146,255,1) 31%, rgba(255,247,84,1) 62%, rgba(255,235,0,1) 100%);
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5rem;
+}
+
+header {
+    transform: translateX(-150%);
+    animation: ani 1s forwards;
+}
+
+@keyframes ani {
+    0% {transform: translateY(-150%);}
+    100% {transform: translateX(0);}
+}
