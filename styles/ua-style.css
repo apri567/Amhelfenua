@@ -1,0 +1,8 @@
+header {
+    height: 100vh;
+    background-image: url('../images/header-bg.png');
+    background-size: cover;
+}
+main {
+    height: 100vh;
+}
