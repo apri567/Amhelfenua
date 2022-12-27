@@ -4,9 +4,10 @@ header {
     /*background-image: url('../images/background.mp4');*/
     background-size: cover;
 }
-main {
-    height: 100vh;
-}
+/*main, main div {*/
+
+    /*filter: brightness(50%);*/
+/*}*/
 
 html::-webkit-scrollbar {
     width: .4rem;
@@ -56,3 +57,46 @@ header {
     0% {transform: translateY(-150%);}
     100% {transform: translateX(0);}
 }
+
+.aboutUs {
+    background: url("../images/flag-1.png");
+    background-size: cover;
+    /*filter: brightness(50%);*/
+    height: 60vh;
+}
+
+@media  (max-width: 720px) {
+    .aboutUs {
+        height: 100vh;
+    }
+}
+/*@media (min-width: 720px) {*/
+/*    .aboutUs card {*/
+/*        width: 50%;*/
+/*    }*/
+/*    .aboutUs-card {*/
+/*        width: 50%;*/
+/*    }*/
+/*}*/
+
+
+/*.banner {*/
+/*    position: relative;*/
+/*}*/
+/*.banner__content {*/
+/*    background: url('../images/flag-01.png');*/
+/*    background-size: cover;*/
+/*}*/
+/*.banner svg {*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    bottom: 0;*/
+/*    width: 100%;*/
+/*}*/
+/*.banner svg path {*/
+/*    fill: #fff;*/
+/*}*/
+
+
+
+
