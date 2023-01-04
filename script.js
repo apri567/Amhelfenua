@@ -7,6 +7,7 @@ showMoreBtn2.addEventListener('click',showMore);
 showMoreBtn3.addEventListener('click',showMore);
 
 
+
 function showMore (e) {
     let rowsList = e.target.parentNode.parentNode.children;
 
