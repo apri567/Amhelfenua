@@ -234,6 +234,7 @@ header {
 }
 
 .donate {
+    height: 80vh;
     background: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% )!important;
 }
 #donate-image-2 {
@@ -258,4 +259,27 @@ header {
     .donate a {
         width: 100%!important;
     }
+
+    .services p {
+        width: 80%!important;
+    }
+    .services div {
+        background: #212529!important;
+    }
+    /*.services img {*/
+    /*    border-radius: 50%;*/
+    /*}*/
+    .services .row .text-container {
+        height: 50vh!important;
+    }
+}
+
+.services {
+    height: 75vh;
+
+}
+.services .row .text-container {
+    height: 80vh;
+    /*background: url("../images/ukraine-background.jpg");*/
+    /*background-size: cover;*/
 }
