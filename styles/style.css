@@ -8,7 +8,6 @@ header {
 
     /*filter: brightness(50%);*/
 /*}*/
-
 html::-webkit-scrollbar {
     width: .4rem;
     background: linear-gradient(0deg, rgba(0,168,255,1) 0%, rgba(101,146,255,1) 31%, rgba(255,247,84,1) 62%, rgba(255,235,0,1) 100%);
@@ -27,7 +26,6 @@ header {
     transform: translateX(-150%);
     animation: ani 1s forwards;
 }
-
 /*.main-section {*/
 /*    position: relative;*/
 /*}*/
