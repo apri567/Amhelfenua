@@ -234,3 +234,33 @@ header {
     height: 100%;
     object-fit: cover;
 }
+
+.donate {
+    height: 70vh;
+    /*background: url("../images/63940864_1006.jpg");*/
+    /*background-size: cover;*/
+    background-image: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% );
+}
+#donate-image-2 {
+    position: relative;
+    left: 50%;
+    bottom: 10%;
+}
+
+@media (max-width: 720px) {
+    .donate {
+        height: 130vh;
+        text-align: center;
+    }
+    #donate-image-1 {
+        width: 100%;
+    }
+    #donate-image-2 {
+        width: 50%;
+        left: 0;
+        bottom: 10%;
+    }
+    .donate a {
+        width: 100%!important;
+    }
+}
