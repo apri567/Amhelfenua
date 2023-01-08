@@ -259,7 +259,9 @@ header {
     .donate a {
         width: 100%!important;
     }
-
+    .services {
+        height: 100% !important;
+    }
     .services p {
         width: 80%!important;
     }
@@ -272,14 +274,28 @@ header {
     .services .row .text-container {
         height: 50vh!important;
     }
+    .industry h5 {
+        width: 100%!important;
+    }
+    .industry .ukraine-export-img {
+        width: 100%!important;
+    }
 }
 
 .services {
-    height: 75vh;
+    height: 80vh;
 
 }
 .services .row .text-container {
     height: 80vh;
     /*background: url("../images/ukraine-background.jpg");*/
     /*background-size: cover;*/
+}
+
+.industry {
+    height: 100%;
+}
+.industry h5 {
+    color: #445abd;
+    width: 75%;
 }
