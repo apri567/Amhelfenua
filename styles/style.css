@@ -108,7 +108,13 @@ header {
 /*    font-family: "Roboto Mono";*/
 /*    padding: 1em;*/
 /*}*/
-
+/*.help {*/
+/*    height: 200vh;*/
+/*}*/
+.help .buttonContainer {
+    position: relative;
+    top: 100px;
+}
 .help h1 {
     font-size: 2.2em;
 }
@@ -196,7 +202,7 @@ header {
 }
 
 .testimonials {
-    height: 80vh;
+    height: 50vh;
 }
 
 
@@ -232,10 +238,13 @@ header {
     height: 100%;
     object-fit: cover;
 }
-
 .donate {
-    height: 80vh;
     background: linear-gradient( 109.6deg,  rgba(62,161,219,1) 11.2%, rgba(93,52,236,1) 100.2% )!important;
+}
+.donateContainer {
+    position: relative;
+    bottom: 100px;
+    height: 80vh;
 }
 #donate-image-2 {
     position: relative;
@@ -244,9 +253,16 @@ header {
 }
 
 @media (max-width: 720px) {
-    .donate {
+    .testimonials {
+        height: 100vh;
+    }
+    .help .buttonContainer {
+        position: inherit;
+    }
+    .donateContainer {
         height: 130vh;
         text-align: center;
+        position: inherit;
     }
     #donate-image-1 {
         width: 100%;
