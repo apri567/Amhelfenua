@@ -296,6 +296,18 @@ header {
     .industry .ukraine-export-img {
         width: 100%!important;
     }
+    .contacts {
+        text-align: center;
+    }
+    .contacts .phoneContainer {
+        width: 100% !important;
+    }
+    .contacts .formContainer {
+        border-radius: 0!important;
+    }
+    .contacts .formContainer div {
+        width: 100%!important;
+    }
 }
 
 .services {
@@ -315,4 +327,19 @@ header {
 .industry h5 {
     color: #445abd;
     width: 75%;
+}
+
+.socials a {
+    transition: all 0.3s ease-out;
+}
+.socials a:hover {
+    transform: scale(1.2);
+}
+
+.phoneContainer {
+    transition: all 0.3s ease-out;
+}
+.phoneContainer:hover {
+    background-color: #0d6efd!important;
+    /*color: yellow;*/
 }
