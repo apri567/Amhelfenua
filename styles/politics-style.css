@@ -1,0 +1,23 @@
+html {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html::-webkit-scrollbar {
+    width: .4rem;
+    background: linear-gradient(0deg, rgba(0,168,255,1) 0%, rgba(101,146,255,1) 31%, rgba(255,247,84,1) 62%, rgba(255,235,0,1) 100%);
+}
+
+html::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 5rem;
+}
+
+header {
+    background-image: url("../images/flag-1.png");
+    height: 80vh;
+}
