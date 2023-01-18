@@ -1,13 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Mono");
 header {
     height: 100vh;
-    /*background-image: url('../images/background.mp4');*/
     background-size: cover;
 }
-/*main, main div {*/
 
-    /*filter: brightness(50%);*/
-/*}*/
 html::-webkit-scrollbar {
     width: .4rem;
     background: linear-gradient(0deg, rgba(0,168,255,1) 0%, rgba(101,146,255,1) 31%, rgba(255,247,84,1) 62%, rgba(255,235,0,1) 100%);
@@ -26,21 +22,8 @@ header {
     transform: translateX(-150%);
     animation: ani 1s forwards;
 }
-/*.main-section {*/
-/*    position: relative;*/
-/*}*/
-
-/*.card {*/
-/*    display: block;*/
-/*    width: 100%;*/
-/*    height: 100%;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*}*/
 
 #background-video {
-    /*width: 100vw;*/
     height: 100vh;
     object-fit: cover;
     position: fixed;
@@ -59,7 +42,6 @@ header {
 .aboutUs {
     background: url("../images/flag-1.png");
     background-size: cover;
-    /*filter: brightness(50%);*/
     height: 60vh;
 }
 
@@ -68,49 +50,7 @@ header {
         height: 100vh;
     }
 }
-/*@media (min-width: 720px) {*/
-/*    .aboutUs card {*/
-/*        width: 50%;*/
-/*    }*/
-/*    .aboutUs-card {*/
-/*        width: 50%;*/
-/*    }*/
-/*}*/
 
-
-/*.banner {*/
-/*    position: relative;*/
-/*}*/
-/*.banner__content {*/
-/*    background: url('../images/flag-01.png');*/
-/*    background-size: cover;*/
-/*}*/
-/*.banner svg {*/
-/*    position: absolute;*/
-/*    left: 0;*/
-/*    bottom: 0;*/
-/*    width: 100%;*/
-/*}*/
-/*.banner svg path {*/
-/*    fill: #fff;*/
-/*}*/
-
-
-/** {*/
-/*    box-sizing: border-box;*/
-/*    font-weight: normal;*/
-/*}*/
-
-/*body {*/
-/*    color: #555;*/
-/*    background: #222;*/
-/*    text-align: center;*/
-/*    font-family: "Roboto Mono";*/
-/*    padding: 1em;*/
-/*}*/
-/*.help {*/
-/*    height: 200vh;*/
-/*}*/
 .help .buttonContainer {
     position: relative;
     top: 100px;
@@ -253,6 +193,12 @@ header {
 }
 
 @media (max-width: 720px) {
+    .main-section video {
+        display: none;
+    }
+    header {
+        background-image: url("../images/mobile-background.jpg");
+    }
     .testimonials {
         height: 100vh;
     }
@@ -284,9 +230,7 @@ header {
     .services div {
         background: #212529!important;
     }
-    /*.services img {*/
-    /*    border-radius: 50%;*/
-    /*}*/
+
     .services .row .text-container {
         height: 50vh!important;
     }
@@ -316,8 +260,6 @@ header {
 }
 .services .row .text-container {
     height: 80vh;
-    /*background: url("../images/ukraine-background.jpg");*/
-    /*background-size: cover;*/
 }
 
 .industry {
@@ -342,5 +284,4 @@ header {
 }
 .phoneContainer:hover {
     background-color: #0d6efd!important;
-    /*color: yellow;*/
 }
