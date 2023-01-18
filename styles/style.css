@@ -323,6 +323,7 @@ header {
 .industry {
     height: 100%;
     background: url("../images/abstract-wave-fluid-shapes-minimalistic-modern-gradient-background-combined-pastel-light-colors-trendy-template-for-brochure-business-card-landing-page-website-illustration-eps-10-vector.jpg");
+    background-size: cover;
 }
 .industry h5 {
     color: #445abd;
